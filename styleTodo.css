@@ -1,0 +1,62 @@
+body {
+  background-color: #001524;
+}
+.container {
+  background-color: #fde5d4;
+  width: 1080px;
+
+  padding: 40px;
+  display: flex;
+  text-align: center;
+  align-items: center;
+  margin-left: 10%;
+  margin-top: 150px;
+}
+.text ol i {
+  position: absolute;
+
+  cursor: pointer;
+}
+.header {
+  font-weight: bolder;
+  width: 300px;
+  margin-bottom: 20px;
+  font-size: 70px;
+}
+.inputs {
+  width: 450px;
+  height: 200px;
+
+  border: 2px dotted #e46ba3;
+  margin-left: 3%;
+  margin-top: 5%;
+}
+#inp {
+  height: 40px;
+  width: 300px;
+  font-size: 25px;
+  background-color: #ffc6eb;
+  margin-top: 12%;
+  margin-right: 5%;
+}
+button {
+  margin-top: 5%;
+  height: 40px;
+  width: 45px;
+  background-color: rgb(225, 105, 121);
+  font-size: larger;
+  cursor: pointer;
+  margin-right: 4%;
+}
+.text {
+  position: relative;
+  background-color: rgb(227, 175, 199);
+  color: black;
+  font-weight: bolder;
+  text-align: left;
+  font-size: 31px;
+}
+ol li span {
+  position: absolute;
+  right: 0;
+}
